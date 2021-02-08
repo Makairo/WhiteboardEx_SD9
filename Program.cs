@@ -1,4 +1,5 @@
 ﻿using System;
+using Alphabetized;
 
 namespace WhiteboardEx_SD9
 {
@@ -6,7 +7,9 @@ namespace WhiteboardEx_SD9
     {
         static void Main(string[] args)
         {
+            char charTest = 'a';
             Console.WriteLine("Whiteboard solutions container.");
+            Console.WriteLine(Sorts.StringSort("ANDREW"));
         }
 
     }

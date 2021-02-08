@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteboardEx_SD9", "WhiteboardEx_SD9.csproj", "{434CFD44-7FA7-40EC-8282-9AACF8E1480A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteboardEx_SD9", "WhiteboardEx_SD9.csproj", "{434CFD44-7FA7-40EC-8282-9AACF8E1480A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOrEven", "..\OddOrEven\OddOrEven.csproj", "{6AD8989E-F636-49BE-A6BD-9B696F476BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOrEven", "..\OddOrEven\OddOrEven.csproj", "{6AD8989E-F636-49BE-A6BD-9B696F476BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGeometry", "..\SimpleGeometry\SimpleGeometry.csproj", "{3ADB5EE9-39A8-4373-9FCF-9079C396F739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphabetized", "..\Alphabetized\Alphabetized.csproj", "{CD532C5C-D486-40C1-B75F-B89168722030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizedTest", "..\AlphabetizedTest\AlphabetizedTest.csproj", "{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "..\CamelCase\CamelCase.csproj", "{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCaseTest", "..\CamelCaseTest\CamelCaseTest.csproj", "{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +29,22 @@ Global
 		{6AD8989E-F636-49BE-A6BD-9B696F476BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD8989E-F636-49BE-A6BD-9B696F476BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD8989E-F636-49BE-A6BD-9B696F476BC8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3ADB5EE9-39A8-4373-9FCF-9079C396F739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ADB5EE9-39A8-4373-9FCF-9079C396F739}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ADB5EE9-39A8-4373-9FCF-9079C396F739}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ADB5EE9-39A8-4373-9FCF-9079C396F739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD532C5C-D486-40C1-B75F-B89168722030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD532C5C-D486-40C1-B75F-B89168722030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD532C5C-D486-40C1-B75F-B89168722030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD532C5C-D486-40C1-B75F-B89168722030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
