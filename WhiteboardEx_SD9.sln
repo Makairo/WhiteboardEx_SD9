@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteboardEx_SD9", "WhiteboardEx_SD9.csproj", "{434CFD44-7FA7-40EC-8282-9AACF8E1480A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8} = {7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}
+		{6AD8989E-F636-49BE-A6BD-9B696F476BC8} = {6AD8989E-F636-49BE-A6BD-9B696F476BC8}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOrEven", "..\OddOrEven\OddOrEven.csproj", "{6AD8989E-F636-49BE-A6BD-9B696F476BC8}"
 EndProject
