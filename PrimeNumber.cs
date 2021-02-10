@@ -16,13 +16,12 @@ namespace WhiteboardEx_SD9
             {
                 return true;
             }
-            for(int n2 = 2;n2 < input; n2++)
+            for(int n2 = 2;n2 < input-1; n2++)
             {
                 if(input % n2 == 0)
                 {
                     return false;
                 }
-                return true;
             }
             return true;
         }
