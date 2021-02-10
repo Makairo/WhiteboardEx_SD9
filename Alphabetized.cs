@@ -2,7 +2,7 @@
 
 namespace Alphabetized
 {
-    public class Sorts
+    public static class Sort
     {
         //Write a method to return a string in alphabetical order.
         public static string StringSort(string inputString)

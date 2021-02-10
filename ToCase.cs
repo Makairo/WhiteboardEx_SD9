@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CamelCase
+namespace ToCase
 {
     public class ToCase
     {
