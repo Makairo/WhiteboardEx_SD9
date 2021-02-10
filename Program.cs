@@ -2,6 +2,8 @@
 using static Alphabetized.Sort;
 using static OddOrEven.OddOrEven;
 using static ToCase.ToCase;
+using static WhiteboardEx_SD9.PrimeNumber;
+
 
 
 namespace WhiteboardEx_SD9
@@ -38,7 +40,11 @@ namespace WhiteboardEx_SD9
         static void Main(string[] args)
         {
             Console.WriteLine("Whiteboard solutions container.");
-            DoWork();
+            //DoWork();
+            for (int i = 0; i <= 100 ; i++)
+            {
+                Console.WriteLine($"\nInput: {i}, Prime: {IsPrime(i)}");
+            }
         }
 
     }
