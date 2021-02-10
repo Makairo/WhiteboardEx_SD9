@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteboardEx_SD9", "Whitebo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOrEven", "..\OddOrEven\OddOrEven.csproj", "{6AD8989E-F636-49BE-A6BD-9B696F476BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphabetized", "..\Alphabetized\Alphabetized.csproj", "{CD532C5C-D486-40C1-B75F-B89168722030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alphabetized", "..\Alphabetized\Alphabetized.csproj", "{CD532C5C-D486-40C1-B75F-B89168722030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizedTest", "..\AlphabetizedTest\AlphabetizedTest.csproj", "{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphabetizedTest", "..\AlphabetizedTest\AlphabetizedTest.csproj", "{80FCF0B6-62FF-4A3B-9D36-4997B2D9F4FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "..\CamelCase\CamelCase.csproj", "{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "..\CamelCase\CamelCase.csproj", "{7F05BB8A-A40C-46B3-8FF8-375ABE168AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCaseTest", "..\CamelCaseTest\CamelCaseTest.csproj", "{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCaseTest", "..\CamelCaseTest\CamelCaseTest.csproj", "{21942693-F5A9-4C93-9DD7-9A5EB9DCD6AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
