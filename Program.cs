@@ -2,7 +2,7 @@
 using static Alphabetized.Sort;
 using static OddOrEven.OddOrEven;
 using static ToCase.ToCase;
-using static WhiteboardEx_SD9.PrimeNumber;
+using static WhiteboardEx_SD9.Primes;
 
 
 
@@ -39,12 +39,14 @@ namespace WhiteboardEx_SD9
         }
         static void Main(string[] args)
         {
+            int x = 100;
             Console.WriteLine("Whiteboard solutions container.");
             //DoWork();
             for (int i = 0; i <= 100 ; i++)
             {
                 Console.WriteLine($"\nInput: {i}, Prime: {IsPrime(i)}");
             }
+            Console.WriteLine($"\nThe sum of primes from 2 to {x} is: {SumOfPrimes(x)}");
         }
 
     }
