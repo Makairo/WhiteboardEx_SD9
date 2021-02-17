@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OddOrEven
+namespace WhiteboardEx_SD9
 {
     public static class OddOrEven
     {

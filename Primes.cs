@@ -8,7 +8,7 @@ namespace WhiteboardEx_SD9
     {
         public static bool IsPrime(int input)
         {
-            int maxRange = (int)Math.Sqrt(input);
+            //int maxRange = (int)Math.Sqrt(input);
             if (input == 1 || input == 0)
             {
                 return false;
@@ -17,7 +17,7 @@ namespace WhiteboardEx_SD9
             {
                 return true;
             }
-            for(int n2 = 2;n2 < maxRange; n2++)
+            for(int n2 = 2;n2 < input/2; n2++)
             {
                 if(input % n2 == 0)
                 {

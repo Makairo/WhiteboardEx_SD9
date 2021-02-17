@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ToCase
+namespace WhiteboardEx_SD9
 {
     public class ToCase
     {
