@@ -123,5 +123,62 @@ namespace WhiteboardEx_SD9
 
             return sortedArray;
         }
+        public static int[] rotateArray(string direction, int numTimes, int[] inputArray)
+        {
+            // Initializing counter + temp array.
+            int z = 0;
+            int[] temp = new int[inputArray.Length];
+            // Checking numtimes to ensure it does not go out of bounds in the for loops.
+            if (numTimes >= inputArray.Length)
+            {
+                numTimes = inputArray.Length % numTimes;
+            }
+            // Z is set to the index + or - the number of places rotated, and checks are added to ensure
+            // it doesnt go out of bounds.
+
+
+            if (direction == "left")
+            {
+                for (int N = 0; N < inputArray.Length; N++)
+                {
+                    z = N - numTimes;
+                    if (z < 0)
+                    {
+                        z += inputArray.Length;
+                    }
+
+                    temp[z] = inputArray[N];
+                }
+            }
+            if (direction == "right")
+            {
+                for (int N = 0; N < inputArray.Length; N++)
+                {
+                    z = N + numTimes;
+                    if (z >= inputArray.Length)
+                    {
+                        z -= inputArray.Length;
+                    }
+
+                    temp[z] = inputArray[N];
+                }
+            }
+
+            return temp;
+        }
+        public static string stringArray(int[] inputArray)
+        {
+            string output = "";
+            for (int i = 0; i < inputArray.Length; i++)
+            {
+                output += inputArray[i];
+                if (i < inputArray.Length - 1)
+                {
+                    output += ",";
+                }
+            }
+            return output;
+
+        }
     }
 }
