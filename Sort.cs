@@ -30,6 +30,12 @@ namespace WhiteboardEx_SD9
             int tempx = 0;
             int tempy = 0;
             bool sorted = true;
+            //Assigning new array.
+            int[] sortedArray = new int[inputArray.Length];
+            for(int c = 0;c < inputArray.Length ; c++)
+            {
+                sortedArray[c] = inputArray[c];
+            }
             // Will only exit when array is sorted.
             do
             {
@@ -38,31 +44,24 @@ namespace WhiteboardEx_SD9
                 // the index of length - 1, so the last value does not need to be processed.
 
                 // Will only exit if an iteration of the for loop never runs the IF statement.
-                for (int i = 0; i < inputArray.Length - 1; i++)
+                for (int i = 0; i < sortedArray.Length - 1; i++)
                 {
-                    if (inputArray[i] > inputArray[i + 1])
+                    if (sortedArray[i] > sortedArray[i + 1])
                     {
                         // Transferring values to temporary values, reassigning array.
-                        tempx = inputArray[i];
-                        tempy = inputArray[i + 1];
-                        inputArray[i] = tempy;
-                        inputArray[i + 1] = tempx;
+                        tempx = sortedArray[i];
+                        tempy = sortedArray[i + 1];
+                        sortedArray[i] = tempy;
+                        sortedArray[i + 1] = tempx;
                         sorted = false;
                     }
                 }
             } while (sorted == false);
 
-
-            foreach (int y in inputArray)
-            {
-                Console.Write($"{y} ");
-            }
-            Console.WriteLine("\n");
-
-            return inputArray;
+            return sortedArray;
         }
 
-        public static int[] mergeSortArray(int[] inputArray)
+        public static int[] halfMergeSortArray(int[] inputArray)
         {
             int sum = 0;
             int median;
@@ -114,12 +113,6 @@ namespace WhiteboardEx_SD9
                     }
                 }
             } while (sorted == false);
-
-            foreach (int y in sortedArray)
-            {
-                Console.Write($"{y} ");
-            }
-            Console.WriteLine("\n");
 
             return sortedArray;
         }

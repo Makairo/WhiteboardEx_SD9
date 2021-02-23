@@ -74,8 +74,6 @@ namespace WhiteboardEx_SD9
             }
             // If it goes through the entire string, no match return false.
             return false;
-
         }
-
     }
 }

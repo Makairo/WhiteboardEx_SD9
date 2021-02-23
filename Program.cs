@@ -4,17 +4,13 @@ using static WhiteboardEx_SD9.OddOrEven;
 using static WhiteboardEx_SD9.ToCase;
 using static WhiteboardEx_SD9.Primes;
 using static WhiteboardEx_SD9.Filters;
+using static WhiteboardEx_SD9.TupleMath;
 
 
 
 namespace WhiteboardEx_SD9
 {
-
-    class Program
-    {
-
-        static void Main(string[] args)
-        {
+    /*
             StringContains("Fox", "The Fox");
             StringContains("fox", "The Fox ran away.");
             exampleClass EX1 = new exampleClass(68, 722);
@@ -33,11 +29,17 @@ namespace WhiteboardEx_SD9
 
             int[] testArray = { 5,89,76,56,34,23,12,34,56,73,85,25,36,86,25,99,54,24,25,26,76,76,76,57,3,4,6,45,76,57,37,25,59};
 
-            sortArray(testArray);
-            mergeSortArray(testArray);
-            
+            Console.WriteLine(sortArray(testArray));
+            halfMergeSortArray(testArray);
+    */
+    class Program
+    {
 
-            //Console.WriteLine(stringArray(sortArray(testArray)));
+        static void Main(string[] args)
+        {
+            int[] testArray = { 5, 7, 2, 3, 4, 1 };
+            Console.WriteLine(findInArray(4, testArray));
+            getOperands();
         }
     }
 }
