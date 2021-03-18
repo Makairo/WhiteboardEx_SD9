@@ -307,10 +307,14 @@ namespace WhiteboardEx_SD9
             return true;
         }
 
-        public static bool CharInString(char c, string input)
+        public static bool CharInString(string cIn, string input)
         {
             // Input validation
-            if (string.IsNullOrEmpty(input) || !char.IsLetter(c)) return false;
+            if (string.IsNullOrEmpty(input) || string.IsNullOrEmpty(cIn)) return false;
+            if (cIn.Length > 1) return false;
+
+            // Grabs first character for easier comparison.
+            char c = cIn[0];
 
             for (int i = 0; i < input.Length; i++)
             {
