@@ -295,8 +295,8 @@ namespace WhiteboardEx_SD9
             input = input.Trim();
             if (string.IsNullOrEmpty(input)) return false; // Returns false if string is ONLY spaces. The trim would have left it empty.
 
-            //Comparing each char from the beginning to the end.
-            //Returns false if one is ever not equal.
+            // Comparing each char from the beginning to the end.
+            // Returns false if one is ever not equal.
             for (int i = 0; i < input.Length / 2; i++)
             {
                 if (input[i].ToString().ToUpper() != input[input.Length - i - 1].ToString().ToUpper())
@@ -305,6 +305,18 @@ namespace WhiteboardEx_SD9
                 }
             }
             return true;
+        }
+
+        public static bool CharInString(char c, string input)
+        {
+            // Input validation
+            if (string.IsNullOrEmpty(input) || !char.IsLetter(c)) return false;
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] == c) return true;
+            }
+            return false;
         }
     }
 }
