@@ -5,6 +5,7 @@ using static WhiteboardEx_SD9.ToCase;
 using static WhiteboardEx_SD9.Primes;
 using static WhiteboardEx_SD9.Filters;
 using static WhiteboardEx_SD9.TupleMath;
+using static WhiteboardEx_SD9.Calculations;
 
 
 
@@ -16,9 +17,7 @@ namespace WhiteboardEx_SD9
 
         static void Main(string[] args)
         {
-            Console.WriteLine(StringLength("My friend has a nice car.  "));
-            Console.WriteLine(ReverseString("My friend has a nice car."));
-            Console.WriteLine(LongestWord("My friend has a nice car."));
+            Console.WriteLine(FindTimeAngle("12:30"));
         }
     }
 }
